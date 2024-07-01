@@ -1,0 +1,48 @@
+.head_body {
+  padding: 30px 0 !important;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.head_end {
+  text-align: center;
+}
+.head_end img {
+  height: 96%;
+  width: 100%;
+}
+.head_text {
+  width: 1050px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+.head_text_end {
+  width: 450px;
+}
+.head_text h1 {
+  font-size: 66px !important;
+  color: white;
+  line-height: 81px !important;
+  width: 550px !important;
+}
+.head_text h1 span {
+  font-weight: lighter !important;
+  font-style: italic;
+}
+.head_text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 456px;
+  color: #FFFFFF;
+  padding-top: 40px;
+}
+.head_text .btn {
+  margin-top: 32px;
+  font-weight: 500 !important;
+  padding: 16px 22px 16px 32px;
+}
+.head_text .btn i {
+  padding-left: 12px;
+}/*# sourceMappingURL=main.css.map */

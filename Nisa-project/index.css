@@ -1,0 +1,69 @@
+@media (max-width: 1200px) {
+  .head_text {
+    width: 900px !important;
+  }
+  .head_text h1 {
+    width: 400px !important;
+    font-size: 48px !important;
+    line-height: 60px !important;
+  }
+  .head_text p {
+    font-size: 17px !important;
+  }
+  .head_text .btn {
+    padding-left: 29px !important;
+  }
+}
+@media (max-width: 1050px) {
+  .head_text {
+    width: 800px !important;
+  }
+  .head_text h1 {
+    font-size: 42px !important;
+    width: 350px !important;
+  }
+  .head_text_end {
+    width: 400px !important;
+  }
+  .head_end img {
+    width: 100% !important;
+  }
+}
+@media (max-width: 910px) {
+  .head_text {
+    width: 700px !important;
+  }
+  .head_text h1 {
+    width: 316px !important;
+  }
+  .head_text_end {
+    width: 325px !important;
+  }
+  .head_text_end p {
+    width: 325px !important;
+  }
+}
+@media (max-width: 780px) {
+  .head_text {
+    width: 440px !important;
+  }
+  .head_text h1 {
+    font-size: 30px !important;
+    width: 226px !important;
+    line-height: 43px !important;
+  }
+  .head_text_end {
+    width: 170px !important;
+  }
+  .head_text_end p {
+    width: 170px !important;
+    font-size: 11px !important;
+    line-height: 18px !important;
+    padding-top: 0px !important;
+    font-weight: 100 !important;
+  }
+  .head_text .btn {
+    padding-left: 20px !important;
+    font-size: 13px !important;
+  }
+}/*# sourceMappingURL=index.css.map */

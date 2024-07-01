@@ -1,0 +1,112 @@
+.article {
+  padding: 60px 0;
+}
+.article_head h2 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #212121;
+  background-color: #eeebe9;
+  border-radius: 16px;
+  width: 170px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+.article_head h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.88px;
+  text-align: center;
+  color: #1E1E1E;
+  width: 500px;
+  margin: 40px auto 50px;
+}
+.article_head_btn {
+  margin-bottom: 80px;
+  text-align: center;
+}
+.article_head_btn .btn {
+  background-color: #ececec;
+  color: #1E1E1E;
+  font-weight: 600;
+  margin-right: 15px;
+  transition: all 0.2s linear;
+}
+.article_head_btn .btn:hover {
+  background-color: #FF3C78;
+  color: white;
+  cursor: pointer;
+}
+.article_boxs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.article_box {
+  width: 504px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  padding-bottom: 30px;
+  transition: all 0.15s linear;
+}
+.article_box_text {
+  width: 450px;
+  margin: 0 auto;
+}
+.article_box_text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #172327;
+  padding: 25px 0 10px;
+}
+.article_box_text h1 {
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #1E1E1E;
+}
+.article_box:hover {
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+  transform: scale(1.01);
+}
+
+@media (max-width: 1200px) {
+  .article_box {
+    transform: scale(0.8);
+    margin-left: -33px;
+  }
+  .article_box:active {
+    transform: scale(0.77);
+  }
+}
+@media (max-width: 1050px) {
+  .article_boxs {
+    flex-direction: column;
+  }
+  .article_boxs .article_box {
+    transform: scale(1);
+    margin-bottom: 50px;
+  }
+  .article_boxs .article_box:active {
+    transform: scale(0.97);
+  }
+  .article_head h1 {
+    font-size: 38px;
+  }
+}
+@media (max-width: 780px) {
+  .article_head h1 {
+    font-size: 34px;
+    margin: 25px auto 30px;
+  }
+  .article_box {
+    transform: scale(0.9) !important;
+    margin: 0 auto;
+    margin-bottom: 20px !important;
+  }
+  .article_box:active {
+    transform: scale(0.87) !important;
+  }
+}/*# sourceMappingURL=blog.css.map */

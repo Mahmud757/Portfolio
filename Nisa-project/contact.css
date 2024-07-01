@@ -1,0 +1,212 @@
+.contact {
+  background-color: #1E1E1E;
+  padding: 80px 0 40px;
+}
+.contact_main {
+  display: flex;
+  justify-content: space-between;
+}
+.contact_text {
+  width: 400px;
+}
+.contact_text_start {
+  border-bottom: 2px dashed #E1E1E1;
+}
+.contact_text_start h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.88px;
+  color: #FFFFFF;
+}
+.contact_text_start p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #F1F1F1;
+  padding: 35px 0 60px;
+}
+.contact_text_company {
+  padding: 53px 0 25px;
+  border-bottom: 2px dashed #E1E1E1;
+}
+.contact_text_company h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #F1F1F1;
+  padding-bottom: 33px;
+}
+.contact_text_company p {
+  padding-bottom: 28px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.contact_text_company p img {
+  padding-right: 10px;
+}
+.contact_text_end {
+  padding: 50px 0;
+}
+.contact_text_end h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #F1F1F1;
+  padding-bottom: 20px;
+}
+.contact_info {
+  background-color: #FFFFFF;
+  width: 495px;
+  height: 695px;
+  border-radius: 24px;
+  padding: 35px;
+}
+.contact_info_start h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.contact_info_input form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contact_info_input form input[type=text],
+.contact_info_input form input[type=email] {
+  width: 210px;
+  border-radius: 8px !important;
+  border: 1px solid #E1E1E1 !important;
+  background-color: #F5F8FA !important;
+  height: 40px;
+  margin-bottom: 30px;
+  padding: 0 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.contact_info_input form p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #192327;
+  display: block !important;
+  padding-bottom: 10px;
+}
+.contact_info_input form p span {
+  color: #FF0000;
+}
+.contact_info_input form .input-2 {
+  width: 470px !important;
+}
+.contact_info_input form textarea {
+  border-radius: 8px;
+  border: 1px solid #E1E1E1;
+  background-color: #F5F8FA;
+  width: 473px;
+  height: 100px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.contact_info_input form .checkbox {
+  width: 485px;
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0;
+}
+.contact_info_input form .checkbox input {
+  width: 20px;
+  height: 20px;
+}
+.contact_info_input form .checkbox p {
+  width: 450px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #474747;
+}
+.contact_info_input form input[type=submit] {
+  border-radius: 16px;
+  padding: 12px 24px 12px 24px;
+  border: none;
+  background-color: #2241CF;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
+@media (max-width: 1201px) {
+  .contact_info {
+    transform: scale(0.9);
+  }
+  .contact_text {
+    transform: scale(0.9);
+  }
+}
+@media (max-width: 1200px) {
+  .contact_info {
+    position: relative;
+    left: 40px;
+  }
+  .contact_text {
+    position: relative;
+    right: 20px;
+  }
+  .contact {
+    padding-top: 45px;
+  }
+}
+@media (max-width: 1050px) {
+  .contact_main {
+    flex-wrap: wrap;
+  }
+  .contact_info {
+    transform: scale(1);
+    margin: 0 auto;
+  }
+  .contact_text {
+    transform: scale(1);
+    margin: 0 auto;
+    width: 440px;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 16px;
+    margin-bottom: 60px;
+    right: 0px !important;
+    padding-bottom: 0;
+  }
+  .contact_info {
+    left: 0;
+    margin-bottom: 40px;
+  }
+  .contact {
+    padding-top: 45px;
+  }
+}
+@media (max-width: 780px) {
+  .contact_info {
+    width: 430px;
+  }
+  .contact_info input[type=text] {
+    width: 180px !important;
+  }
+  .contact_info #input-2 {
+    width: 410px !important;
+  }
+  .contact_info textarea {
+    width: 410px !important;
+  }
+  .contact_info .checkbox {
+    align-items: center;
+  }
+  .contact_info .checkbox p {
+    width: 390px !important;
+    font-size: 13.5px !important;
+  }
+}/*# sourceMappingURL=contact.css.map */

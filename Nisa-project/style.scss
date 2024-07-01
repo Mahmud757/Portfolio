@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1E1E1E;
+
+    .head {
+        padding: 25px 0;
+
+        &_main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &_list {
+            ul {
+                display: flex;
+                list-style-type: none;
+            }
+
+            li {
+                padding-right: 30px;
+            }
+        }
+
+        &_btn {
+            display: flex;
+            align-items: center;
+
+            p {
+                font-size: 16px;
+                color: white;
+                padding-right: 20px;
+            }
+        }
+
+        a {
+            font-size: 17px;
+            font-weight: 400;
+            color: white;
+            text-decoration: none;
+            transition: all 0.2s linear;
+        }
+
+        a:hover {
+            color: #FF3C78;
+        }
+    }
+}
+
+.btn {
+    border-radius: 15px;
+    padding: 12px 24px 12px 24px;
+    border: none;
+    background-color: #FF3C78;
+    color: white;
+    font-size: 16px;
+
+    &_blue {
+        background-color: #2241CF;
+    }
+}
+
+
+@media (max-width:550px) {
+    body {
+        max-width: 550px; // Saytingizni kengligini to'g'ri ko'rsatib berish
+    }
+
+    // Sizning veb-saytingizning umumiy ko'rinishiga qarab, siz kerakli elementlarni tanlang
+    // Masalan, agar sizning asosiy konteyneringizni .container nomi bilan tanlagan bo'lsangiz:
+
+    .container {
+        max-width: 100%; // Asosiy konteyneringizning kengligini 100%ga sozlaydi
+        overflow-x: auto; // Kerakli bo'lgan holatda yatay qatlama chiqishni yoqadi
+    }
+}
